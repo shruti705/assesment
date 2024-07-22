@@ -10,7 +10,7 @@ import {
 import {useSelector} from 'react-redux';
 import {StackNavigationProp} from '@react-navigation/stack';
 import {RootState} from '../Redux/store';
-import {RootStackParamList} from '../Navigation/types';
+import {RootStackParamList} from '../navigation/types';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {ImageAssets} from '../../../assets/ImageAssets';
 import OutlineButton from '../stylecomponent/OutlineButton';

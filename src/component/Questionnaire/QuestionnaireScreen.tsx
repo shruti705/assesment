@@ -3,7 +3,7 @@ import {View, Text, TouchableOpacity, StyleSheet, SafeAreaView, StatusBar} from 
 import {useDispatch, useSelector} from 'react-redux';
 import {updateScore} from '../redux/scoreSlice';
 import {StackNavigationProp} from '@react-navigation/stack';
-import {RootStackParamList} from '../Navigation/types';
+import {RootStackParamList} from '../navigation/types';
 import {useIsFocused} from '@react-navigation/native';
 import { RootState } from '../redux/store';
 import Questions from './Questions';
