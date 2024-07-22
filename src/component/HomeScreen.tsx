@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { View, Text, Button, StyleSheet, Image, SafeAreaView, StatusBar, TextInput } from 'react-native';
 import { StackNavigationProp } from '@react-navigation/stack';
-import { RootStackParamList } from '../navigation/types';  
+import { RootStackParamList } from './navigation/types';  
 import { ImageAssets } from '../../assets/ImageAssets';
 import OutlineButton from './stylecomponent/OutlineButton';
 import { useDispatch } from 'react-redux';
-import { setName } from '../redux/userSlice';
+import { setName } from './redux/userSlice';
 
 type HomeScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Home'>;
 

@@ -11,8 +11,8 @@ import {
 } from 'react-native';
 import {useSelector} from 'react-redux';
 import {StackNavigationProp} from '@react-navigation/stack';
-import {RootState} from '../redux/store';
-import {RootStackParamList} from '../navigation/types';
+import {RootState} from './redux/store';
+import {RootStackParamList} from './navigation/types';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {ImageAssets} from '../../assets/ImageAssets';
 import OutlineButton from '../component/stylecomponent/OutlineButton';

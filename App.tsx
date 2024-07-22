@@ -11,7 +11,7 @@ import HomeScreen from './src/component/HomeScreen';
 import QuestionnaireScreen from './src/component/QuestionnaireScreen';
 import ResultScreen from './src/component/ResultScreen';
 import {createStackNavigator} from '@react-navigation/stack';
-import HeaderBackImage from './src/component/HeaderBackImage';
+import HeaderBackImage from './src/component/stylecomponent/HeaderBackImage';
 
 function App(): React.JSX.Element {
   const Stack = createStackNavigator();

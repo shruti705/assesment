@@ -1,5 +1,5 @@
 import { Image } from "react-native";
-import { ImageAssets } from "../../assets/ImageAssets";
+import { ImageAssets } from "../../../assets/ImageAssets";
 
 const HeaderBackImage = () => (
     <Image
