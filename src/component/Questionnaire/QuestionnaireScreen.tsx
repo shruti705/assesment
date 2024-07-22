@@ -1,11 +1,11 @@
 import React, {useState, useEffect} from 'react';
 import {View, Text, TouchableOpacity, StyleSheet, SafeAreaView, StatusBar} from 'react-native';
 import {useDispatch, useSelector} from 'react-redux';
-import {updateScore} from '../redux/scoreSlice';
+import {updateScore} from '../Redux/scoreSlice';
 import {StackNavigationProp} from '@react-navigation/stack';
-import {RootStackParamList} from '../navigation/types';
+import {RootStackParamList} from '../Navigation/types';
 import {useIsFocused} from '@react-navigation/native';
-import { RootState } from '../redux/store';
+import { RootState } from '../Redux/store';
 import Questions from './Questions';
 import styles from './QuestionStyles';
 

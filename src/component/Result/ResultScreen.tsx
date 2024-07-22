@@ -9,11 +9,11 @@ import {
 } from 'react-native';
 import {useSelector} from 'react-redux';
 import {StackNavigationProp} from '@react-navigation/stack';
-import {RootState} from '../redux/store';
-import {RootStackParamList} from '../navigation/types';
+import {RootState} from '../Redux/store';
+import {RootStackParamList} from '../Navigation/types';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {ImageAssets} from '../../../assets/ImageAssets';
-import OutlineButton from '../../component/stylecomponent/OutlineButton';
+import OutlineButton from '../Stylecomponent/OutlineButton';
 import styles from './ResultStyle';
 
 
