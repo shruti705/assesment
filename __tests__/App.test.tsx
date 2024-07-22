@@ -39,7 +39,6 @@ describe("AppNavigator", () => {
     jest.clearAllMocks();
     cleanup();
   });
-
   test('renders correctly', () => {
     const getByText = renderer.create(
       <App />
