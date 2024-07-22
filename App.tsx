@@ -7,9 +7,9 @@
 
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
-import HomeScreen from './src/component/HomeScreen';
-import QuestionnaireScreen from './src/component/QuestionnaireScreen';
-import ResultScreen from './src/component/ResultScreen';
+import HomeScreen from './src/component/HomeScreen/HomeScreen';
+import QuestionnaireScreen from './src/component/Questionnaire/QuestionnaireScreen';
+import ResultScreen from './src/component/Result/ResultScreen';
 import {createStackNavigator} from '@react-navigation/stack';
 import HeaderBackImage from './src/component/stylecomponent/HeaderBackImage';
 

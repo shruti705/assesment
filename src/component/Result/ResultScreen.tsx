@@ -2,8 +2,6 @@ import React from 'react';
 import {
   View,
   Text,
-  Button,
-  StyleSheet,
   SafeAreaView,
   StatusBar,
   useColorScheme,
@@ -11,11 +9,13 @@ import {
 } from 'react-native';
 import {useSelector} from 'react-redux';
 import {StackNavigationProp} from '@react-navigation/stack';
-import {RootState} from './redux/store';
-import {RootStackParamList} from './navigation/types';
+import {RootState} from '../redux/store';
+import {RootStackParamList} from '../navigation/types';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import {ImageAssets} from '../../assets/ImageAssets';
-import OutlineButton from '../component/stylecomponent/OutlineButton';
+import {ImageAssets} from '../../../assets/ImageAssets';
+import OutlineButton from '../../component/stylecomponent/OutlineButton';
+import styles from './ResultStyle';
+
 
 type ResultScreenNavigationProp = StackNavigationProp<
   RootStackParamList,
@@ -76,27 +76,6 @@ const ResultScreen: React.FC<Props> = ({navigation}) => {
   );
 };
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#1a2330',
-  },
-  contentcontainer: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  result: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    margin: "4%",
-    color: 'white',
-  },
-  image: {
-    width: '80%',
-    height: "20%",
-    marginVertical: "5%",
-  },
-});
+
 
 export default ResultScreen;

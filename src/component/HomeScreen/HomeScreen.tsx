@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import { View, Text, Button, StyleSheet, Image, SafeAreaView, StatusBar, TextInput } from 'react-native';
 import { StackNavigationProp } from '@react-navigation/stack';
-import { RootStackParamList } from './navigation/types';  
-import { ImageAssets } from '../../assets/ImageAssets';
-import OutlineButton from './stylecomponent/OutlineButton';
+import { RootStackParamList } from '../navigation/types';  
+import { ImageAssets } from '../../../assets/ImageAssets';
+import OutlineButton from '../stylecomponent/OutlineButton';
 import { useDispatch } from 'react-redux';
-import { setName } from './redux/userSlice';
+import { setName } from '../redux/userSlice';
+import styles from './HomeStyle';
+
 
 type HomeScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Home'>;
 
@@ -51,49 +53,6 @@ const HomeScreen: React.FC<Props> = ({ navigation }) => {
   );
 };
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#1a2330',
-    justifyContent: "center",
-  },
-  subContainer: {
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  image: {
-    width: 166,
-    height: 114,
-    justifyContent: "center",
-    alignItems: "center",
-    resizeMode: "contain",
-  },
-  textContainer: {
-    justifyContent: "center",
-    alignItems: "center",
-    width: "100%",
-    paddingRight: "5%",
-    paddingLeft: "5%",
-  },
-  textSubHeader: {
-    marginTop: "2%",
-    fontSize: 18,
-    fontWeight: "400",
-    lineHeight: 20,
-    color: "white",
-  },
-  textInput: {
-    width: "100%",
-    height: 56,
-    marginVertical: "5%",
-    paddingLeft: "5%",
-    color: "black",
-    borderWidth: 2,
-    borderRadius: 5,
-    backgroundColor: "white",
-    textAlign: "left",
-    borderColor: "white",
-  },
-});
+
 
 export default HomeScreen;
