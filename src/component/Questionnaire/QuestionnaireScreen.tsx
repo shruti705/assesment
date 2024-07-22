@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {View, Text, TouchableOpacity, StyleSheet, SafeAreaView, StatusBar} from 'react-native';
+import {View, Text, TouchableOpacity, SafeAreaView, StatusBar} from 'react-native';
 import {useDispatch, useSelector} from 'react-redux';
 import {updateScore} from '../redux/scoreSlice';
 import {StackNavigationProp} from '@react-navigation/stack';

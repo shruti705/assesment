@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, Button, StyleSheet, Image, SafeAreaView, StatusBar, TextInput } from 'react-native';
+import { View, Text,Image, SafeAreaView, StatusBar, TextInput } from 'react-native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../navigation/types';  
 import { ImageAssets } from '../../../assets/ImageAssets';
