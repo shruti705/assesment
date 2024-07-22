@@ -3,9 +3,9 @@ import { View, Text, Button, StyleSheet, Image, SafeAreaView, StatusBar, TextInp
 import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../Navigation/types';  
 import { ImageAssets } from '../../../assets/ImageAssets';
-import OutlineButton from '../Stylecomponent/OutlineButton';
+import OutlineButton from '../stylecomponent/OutlineButton';
 import { useDispatch } from 'react-redux';
-import { setName } from '../Redux/userSlice';
+import { setName } from '../redux/userSlice';
 import styles from './HomeStyle';
 
 

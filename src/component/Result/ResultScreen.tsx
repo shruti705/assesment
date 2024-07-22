@@ -13,7 +13,7 @@ import {RootState} from '../Redux/store';
 import {RootStackParamList} from '../Navigation/types';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {ImageAssets} from '../../../assets/ImageAssets';
-import OutlineButton from '../Stylecomponent/OutlineButton';
+import OutlineButton from '../stylecomponent/OutlineButton';
 import styles from './ResultStyle';
 
 
