@@ -55,6 +55,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#1a2330',
+    justifyContent: "center",
   },
   subContainer: {
     justifyContent: "center",
@@ -63,8 +64,6 @@ const styles = StyleSheet.create({
   image: {
     width: 166,
     height: 114,
-    marginTop: "20%",
-    marginBottom: "10%",
     justifyContent: "center",
     alignItems: "center",
     resizeMode: "contain",
