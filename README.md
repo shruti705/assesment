@@ -54,10 +54,10 @@ Navigation between screens using React Navigation.
 Captures the user's name and navigates to the home screen.
 2. Home Screen
 A welcome screen that provides an introduction to the app.
-Questionnaire Screen
+3. Questionnaire Screen
 Displays a series of questions with multiple-choice answers.
 Updates the total score based on the user's responses.
-3. Result Screen
+4. Result Screen
 Displays the user's risk profile score and category.
 Shows an image based on the risk category (Low, Medium, High).
 
