@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
   optionText: {
     fontSize: 18,
     textAlign: 'left',
-    color:"00E0F5",
+    color: "#708090",
   },
   selectedOptionText: {
     fontWeight: 'bold',

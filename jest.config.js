@@ -2,8 +2,10 @@ module.exports = {
   preset: 'react-native',
   transform: {
     '^.+\\.(js|jsx|ts|tsx)$': 'babel-jest',
-    // Remove image file types from here
+    '^.+\\.tsx?$': 'babel-jest',
+    '^.+\\.jsx?$': 'babel-jest',
   },
+  testEnvironment: 'node',
   transformIgnorePatterns: [
     'node_modules/(?!(react-native|@react-native|react-navigation|@react-navigation)/)',
   ],

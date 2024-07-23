@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StyleSheet should match the snapshot 1`] = `
+{
+  "container": {
+    "backgroundColor": "#1a2330",
+    "flex": 1,
+  },
+  "image": {
+    "resizeMode": "contain",
+    "width": 166,
+  },
+  "modal": {
+    "alignItems": "center",
+    "justifyContent": "center",
+  },
+  "modalButton": {
+    "backgroundColor": "#1a2330",
+    "borderRadius": 5,
+    "padding": "5%",
+  },
+  "modalButtonText": {
+    "color": "white",
+    "fontSize": 16,
+  },
+  "modalContent": {
+    "alignItems": "center",
+    "backgroundColor": "white",
+    "borderRadius": 10,
+    "padding": "5%",
+  },
+  "modalText": {
+    "color": "black",
+    "fontSize": 18,
+    "marginBottom": "5%",
+  },
+  "modalTextTitle": {
+    "color": "black",
+    "fontSize": 18,
+    "marginBottom": "5%",
+  },
+  "subContainer": {
+    "marginLeft": "7%",
+    "marginTop": "10%",
+  },
+  "textContainer": {
+    "alignItems": "center",
+    "justifyContent": "center",
+    "marginTop": "20%",
+    "paddingLeft": "5%",
+    "paddingRight": "5%",
+  },
+  "textInput": {
+    "backgroundColor": "white",
+    "borderColor": "white",
+    "borderRadius": 5,
+    "borderWidth": 2,
+    "color": "black",
+    "height": 56,
+    "marginTop": "4%",
+    "paddingLeft": "5%",
+    "textAlign": "left",
+    "width": "100%",
+  },
+  "textSubHeader": {
+    "color": "white",
+    "fontSize": 18,
+    "fontWeight": "400",
+    "lineHeight": 20,
+    "marginTop": "2%",
+  },
+  "title_welcome": {
+    "color": "white",
+    "fontSize": 25,
+    "fontWeight": "700",
+    "marginLeft": "3%",
+    "marginTop": "5%",
+  },
+}
+`;

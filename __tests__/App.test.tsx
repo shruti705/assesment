@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, cleanup, waitFor } from "@testing-library/react-native";
 import { act } from "react-test-renderer";
-import App from "../App"; // Ensure this path is correct
+import App from "../App";
 import renderer from 'react-test-renderer';
 const MockNavigator = ({ children }: { children: React.ReactNode }) => <>{children}</>;
 const MockScreen = ({ component: Component }: { name: string; component: React.ComponentType }) => (Component ? <Component /> : null);
