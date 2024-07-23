@@ -22,12 +22,12 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     borderRadius: 6,
     margin : "5%",
-    backgroundColor: 'transparent',
+    backgroundColor: '#00CEE0',
     alignItems: 'center',
   },
   text: {
     fontSize: 16,
-    color: '#00CEE0',
+    color: 'white',
     fontWeight: 'bold',
   },
 });

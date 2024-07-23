@@ -35,7 +35,7 @@ function App(): React.JSX.Element {
           component={QuestionnaireScreen}
           options={{
             title: 'Risk Profile Questionnaire',
-            headerTintColor: '#FFFFFF',
+            headerTintColor: 'white',
           }}
         />
         <Stack.Screen

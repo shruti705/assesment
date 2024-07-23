@@ -31,7 +31,7 @@ describe('Styles', () => {
       fontSize: 18,
       fontWeight: 'bold',
       margin: '5%',
-      color: '#ffffff',
+      color: 'white',
     });
   });
 
@@ -40,13 +40,13 @@ describe('Styles', () => {
       fontSize: 20,
       fontWeight: 'bold',
       margin: '5%',
-      color: '#ffffff',
+      color: 'white',
     });
   });
 
   it('should have the correct styles for card', () => {
     expect(styles.card).toEqual({
-      backgroundColor: '#ffffff',
+      backgroundColor: 'white',
       borderRadius: 8,
       padding: '5%',
       elevation: 3,
